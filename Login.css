@@ -1,0 +1,10 @@
+body {
+    background-color: #f8f9fa;
+    background-image: url("https://imgs.search.brave.com/ykkql7J5BMGWuKHoDF8yX4CaVq6cqv5y8FhVwWGoPsY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnVk/ZW15Y2RuLmNvbS9j/b3Vyc2UvNDgweDI3/MC8yNTA4OTQyXzEx/ZDMuanBn");
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }

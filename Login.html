@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="text-center">Login Form</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <label for="email" class="form-label">Email:</label>
+                            <div class="input-group has-validation mb-3">
+                                <span class="input-group-text">
+                                    <i class="bi bi-envelope"></i>
+                                </span>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="Enter Your Email Address" required>
+                                <span class="input-group-text">@gmail.com</span>
+                            </div>
+
+                            <label for="password" class="form-label">Password:</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">
+                                    <i class="bi bi-file-earmark-lock2-fill"></i>
+                                </span>
+                                <input type="password" class="form-control" id="password"
+                                    placeholder="Enter your password" required>     
+                            </div>
+
+                            <div class="d-grid gap-2 col-6 mx-auto">                      
+                                <button type="login" class="btn btn-primary"> Login </button>
+                                <p class="text-center">Dont Have a Account Register Here! <a href="Registration.html">Register Here!</a> </p>
+                              </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
